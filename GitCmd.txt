@@ -1,0 +1,40 @@
+git init
+create a file: add some content
+git add filename
+git add .
+git commit -m "message"
+git status
+git config --global user.name "Simant"
+git config --global user.email "simant.setu@hotmail.com"
+git branch 
+git branch branch-name
+git checkout branch-name
+make changes in any file
+git add .
+git commit -m "message"
+
+git checkout master
+git merge branch
+git branch -d branch name : to delete
+
+git checkout -b branch-name: create and checkout to new branch
+
+git remote add origin "https://github.com/Namrata-Kumar/ExaminationSystem.git"
+git clone "https://github.com/Namrata-Kumar/ExaminationSystem.git"
+make changes in the remote repo
+git pull origin master
+create a file 
+git add .
+git commit -m "message"
+git push origin master
+
+
+git branch br1
+git checkout br1
+make changes
+git add .
+git commit -m "message"
+git rebase master
+
+
+
