@@ -19,6 +19,8 @@ import { AdminprofileComponent } from './components/adminprofile/adminprofile.co
 import { ReportcardComponent } from './components/reportcard/reportcard.component';
 import { UserloginComponent } from './components/userlogin/userlogin.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -42,7 +44,9 @@ import { FooterComponent } from './components/footer/footer.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

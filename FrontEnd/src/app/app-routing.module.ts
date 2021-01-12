@@ -28,6 +28,8 @@ const routes: Routes = [
   {path: "reportcard", component:ReportcardComponent}, 
   {path: "userlogin", component:UserloginComponent}, 
   {path: "", component: MainpageComponent},
+  //{path: "", component: AddquestionComponent},
+
   
 
   {path: "**", redirectTo: "mainpage"}

@@ -14,7 +14,7 @@ export class AdminloginComponent implements OnInit {
   ngOnInit() {
   }
 
-  onLogin(){
+  validateAdminLogin(){
     this.router.navigate(["adminprofile"])
   }
 }
