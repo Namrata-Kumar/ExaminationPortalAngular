@@ -1,15 +1,27 @@
-<form >
-    <div style="width: 40%;" class="adminLogin">
-        Email-d : <input id="input" type="text" required pattern="^[a-zA-Z0-9+_.-]+@(@gmail.com)"><br />
-        
-        <div style="padding-top: 1cm;">
-            Password :<input id="password" type="text">
-        </div>
 
-        <button  class="adminLoginButton" (click)="onLogin()">LOGIN</button>
-        <div style="font-size: 60%;margin-top: 0.5cm;">
-            <a (click)="onForgotPassword()" style="text-decoration: underline;color:red;">Forgot Password ?</a>
-        </div>
-    </div>
-    
-</form>
+<img class="img-responsive login-img" src='assets/login.jpg' style="margin-top: 10%;width: 40%;">
+                   
+<div class="login-id">
+<div class="login-container">
+    <form class="login-form p-4">
+      <div class="alert alert-danger" role="alert" *ngIf="false">Invalid Credentials!</div>
+      <div class="form-control-container mb-3">
+        <label for="txtEmail" class="form-label">Email</label>
+        <input
+          type="email"
+          class="form-control"
+          placeholder="someone@nothing.com"
+          id="txtEmail"
+        />
+      </div>
+      <div class="form-control-container mb-3">
+        <label for="txtPassword" class="form-label">Password</label>
+        <input type="password" class="form-control" id="txtPassword" />
+      </div>
+      <div class="form-control-container form-btn-container">
+        <a href="/forgot-password">Forgot Password?</a>
+        <button class="btn btn-success btn-sm px-4" (click)="validateAdminLogin()">Login</button>
+      </div>
+    </form>
+  </div>
+  </div>
