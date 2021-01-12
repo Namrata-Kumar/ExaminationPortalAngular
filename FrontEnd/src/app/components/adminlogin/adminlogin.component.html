@@ -1,0 +1,15 @@
+<form >
+    <div style="width: 40%;" class="adminLogin">
+        Email-d : <input id="input" type="text" required pattern="^[a-zA-Z0-9+_.-]+@(@gmail.com)"><br />
+        
+        <div style="padding-top: 1cm;">
+            Password :<input id="password" type="text">
+        </div>
+
+        <button  class="adminLoginButton" (click)="onLogin()">LOGIN</button>
+        <div style="font-size: 60%;margin-top: 0.5cm;">
+            <a (click)="onForgotPassword()" style="text-decoration: underline;color:red;">Forgot Password ?</a>
+        </div>
+    </div>
+    
+</form>

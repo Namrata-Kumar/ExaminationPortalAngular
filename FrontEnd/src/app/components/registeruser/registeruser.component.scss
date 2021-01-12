@@ -1,0 +1,201 @@
+body{  
+    font-family: Calibri, Helvetica, sans-serif;  
+    // background-color: rgb(14, 45, 221);  
+  }  
+  .container {  
+      padding: 50px;  
+    background-color: lightblue;  
+  }  
+  #cid_7{
+    width: 80%;
+  }
+  #id_9{
+    width: 80%;
+  }
+    
+  input[type=text], input[type=password], textarea {  
+    width: 100%;  
+    padding: 15px;  
+    padding-right:50% ;
+    margin: 5px 0 22px 0;  
+    display: inline-block;  
+    border: none;  
+    background: #f1f1f1;  
+  }  
+  input[type=text]:focus, input[type=password]:focus {  
+    background-color: orange;  
+    outline: none;  
+  }  
+   div {  
+              padding: 10px 0;  
+           }  
+  hr {  
+    border: 1px solid #f1f1f1;  
+    margin-bottom: 25px;  
+  }  
+  .registerbtn {  
+    background-color: #4CAF50;  
+    color: white;  
+    padding: 16px 20px;  
+    margin: 8px 0;  
+    border: none;  
+    cursor: pointer;  
+    width: 100%;  
+    opacity: 0.9;  
+  }  
+  .registerbtn:hover {  
+    opacity: 1;  
+  }  
+
+
+    .form-label-left{
+        width:150px;
+    }
+    .form-line{
+        padding-top:12px;
+        padding-bottom:12px;
+    }
+    .form-label-right{
+        width:150px;
+    }
+    body, html{
+        margin:0;
+        padding:0;
+        // background:rgb(38, 56, 226);
+    }
+
+    .form-all{
+        margin:0px auto;
+        padding-top:20px;
+        width:690px;
+        color:rgb(36, 5, 170) !important;
+        font-family:'Tahoma';
+        font-size:14px;
+    }
+    .form-radio-item label, .form-checkbox-item label, .form-grading-label, .form-header{
+        color: rgb(40, 37, 233);
+    }
+    /* Injected CSS Code */
+/*PREFERENCES STYLE*/
+    .form-all {
+      font-family: "Tahoma", sans-serif;
+    }
+    .form-all .qq-upload-button,
+    .form-all .form-submit-button,
+    .form-all .form-submit-reset,
+    .form-all .form-submit-print {
+      font-family: "Tahoma", sans-serif;
+    }
+    .form-all .form-pagebreak-back-container,
+    .form-all .form-pagebreak-next-container {
+      font-family: "Tahoma", sans-serif;
+    }
+    .form-header-group {
+      font-family: "Tahoma", sans-serif;
+    }
+    .form-label {
+      font-family: "Tahoma", sans-serif;
+    }
+  
+    .form-label.form-label-auto {
+      
+    display: inline-block;
+    float: left;
+    text-align: left;
+  
+    }
+  
+    .form-line {
+      margin-top: 12px;
+      margin-bottom: 12px;
+    }
+  
+    .form-all {
+      max-width: 810px;
+      width: 100%;
+    }
+  
+    .form-label.form-label-left,
+    .form-label.form-label-right,
+    .form-label.form-label-left.form-label-auto,
+    .form-label.form-label-right.form-label-auto {
+      width: 150px;
+    }
+  
+    .form-all {
+      font-size: 13pxpx
+    }
+    .form-all .qq-upload-button,
+    .form-all .qq-upload-button,
+    .form-all .form-submit-button,
+    .form-all .form-submit-reset,
+    .form-all .form-submit-print {
+      font-size: 13pxpx
+    }
+    .form-all .form-pagebreak-back-container,
+    .form-all .form-pagebreak-next-container {
+      font-size: 13pxpx
+    }
+  
+    .supernova .form-all, .form-all {
+      background-color: rgb(156, 196, 241);
+    }
+  
+    .form-all {
+      color: rgb(82, 75, 58);
+    }
+    .form-header-group .form-header {
+      color: rgb(82, 75, 58);
+    }
+    .form-header-group .form-subHeader {
+      color: rgb(82, 75, 58);
+    }
+    .form-label-top,
+    .form-label-left,
+    .form-label-right,
+    .form-html,
+    .form-checkbox-item label,
+    .form-radio-item label {
+      color: rgb(82, 75, 58);
+    }
+    .form-sub-label {
+      color: 1a1a1a;
+    }
+  
+    .supernova {
+      background-color: undefined;
+    }
+    .supernova body {
+      background: transparent;
+    }
+  
+    .form-textbox,
+    .form-textarea,
+    .form-dropdown,
+    .form-radio-other-input,
+    .form-checkbox-other-input,
+    .form-captcha input,
+    .form-spinner input {
+      background-color: undefined;
+    }
+  
+    .supernova {
+      background-image: none;
+    }
+    #stage {
+      background-image: none;
+    }
+  
+      .form-all {
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-position: center top;
+      }
+    
+  .ie-8 .form-all:before { display: none; }
+  .ie-8 {
+    margin-top: auto;
+    margin-top: initial;
+  }
+  
+ 
