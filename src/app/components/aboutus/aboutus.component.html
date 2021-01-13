@@ -1,0 +1,48 @@
+
+<img class="img-responsive" src="assets/aboutus.jpg" width="50%" >
+
+<br><br><br>
+
+
+<div id="bs-example-navbar-collapse-1">
+    <ul>
+      <li>Free online test to practice for Competitive exams.</li>
+   
+      <li>Learn and Practice online test for Free and Prepare for your exam online.</li>
+      <li>Get many free tests and study materials with answers and explanation.
+    </li>
+    </ul>
+  </div>
+  <h1> Our contribution</h1>
+ <ul>
+    <li> <h3>It saves paper. </h3>
+You never have to print an exam for your students and hand them out. Saves paper. Saves trees. Everybody happy. 
+</li>
+<li> <h3>It saves time. </h3>
+
+You can setup an exam in such a way that it will auto-grade itself. If you only use multiple choice questions you never have to check an exam again. The online exam system will take care of that hassle. Completly automated. 
+</li><li> <h3>It saves more time.</h3>
+The distribution of the exam doens't take you any time. Just upload the email addressess of your students and send them an invite. And after the exam they get their result instantly. 
+</li>
+<li> <h3>It saves you money.</h3>
+You don't need to buy any paper. Sending an email is free. On top of that you save on the logistics: your students don't have to assemble in classroom to take the exam. They can do it within a given time frame from their own device. You don't have to rent a classroom. You don't have to hire someone to check the students taking the exam. 
+It saves the student money. 
+Students don't have to travel to a specific location to conduct the exam. So even for students from remote area's it's possible to take the exam. 
+It's more secure.
+You can make a big question bank with a lot of questions. Every student gets a random selection from that question bank.
+
+</li>
+</ul>
+
+<div class="mall-slide">
+  <div class="slid-content">
+      <div class="mall-show-slide fade" *ngFor="let item of Imagedata;">
+          <img src="{{item}}" style="width:100%">
+      </div>
+      <div class="mall-carousel-ind">
+          <ul>
+              <li *ngFor="let item of Imagedata; let i = index;" [class.mall-this]="startIndex - 1 === i"></li>
+          </ul>
+      </div>
+  </div>
+</div>

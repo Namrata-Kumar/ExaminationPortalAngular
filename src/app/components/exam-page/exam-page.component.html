@@ -1,0 +1,33 @@
+<div class="mohan">
+    <table *ngIf="show">
+        <tr>
+            <td>
+                <h3 style="text-align: center;">Level-{{question.examLevel}}</h3>
+            </td>
+        </tr>
+        <tr id="One">
+            <td>Current Question:&nbsp; {{currentQuestion}}/{{totalQuestions}}</td>
+        </tr>
+        <tr id="Two">
+            <td>{{question.description}}</td>
+        </tr>
+        <tr id="Two">
+           <td><input type="radio" name="option" value="{{optionOne}}" (change)="optionChange($event)">{{question.optionOne}}</td> 
+        </tr>
+        <tr id="Two">
+            <td><input type="radio" name="option" value="{{optionTwo}}" (change)="optionChange($event)">{{question.optionTwo}}</td> 
+         </tr>
+         <tr id="Two">
+            <td><input type="radio" name="option" value="{{optionThree}}" (change)="optionChange($event)">{{question.optionThree}}</td> 
+         </tr>
+         <tr id="Two">
+            <td><input type="radio" name="option" value="{{optionFour}}" (change)="optionChange($event)">{{question.optionFour}}</td> 
+         </tr>
+    </table>
+    <br>
+    <div class="nextFinish">
+        <button *ngIf="finish" (click)="fetchExamQuestion()">{{buttonValue}}</button>
+        <button *ngIf="show" (click)="finishTest()">Finish</button>
+    </div>
+    <p *ngIf="show">{{marks}}</p>
+</div>
